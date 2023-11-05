@@ -7,3 +7,5 @@ venv2/
 **/*.weights
 
 **/**/.weights
+
+result.txt

@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import easyocr
 
+
 import util
 
 # define constants
@@ -126,21 +127,20 @@ for img_name in os.listdir(input_dir):
                 font_thickness)
                 
     #cv2.imshow('img', img)
-    print(w)
 
 
 
     plt.figure()
     plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 
-    plt.figure()
-    plt.imshow(cv2.cvtColor(license_plate, cv2.COLOR_BGR2RGB))
+    # plt.figure()
+    # plt.imshow(cv2.cvtColor(license_plate, cv2.COLOR_BGR2RGB))
 
-    plt.figure()
-    plt.imshow(cv2.cvtColor(license_plate_gray, cv2.COLOR_BGR2RGB))
+    # plt.figure()
+    # plt.imshow(cv2.cvtColor(license_plate_gray, cv2.COLOR_BGR2RGB))
 
-    plt.figure()
-    plt.imshow(cv2.cvtColor(license_plate_thresh, cv2.COLOR_BGR2RGB))
+    # plt.figure()
+    # plt.imshow(cv2.cvtColor(license_plate_thresh, cv2.COLOR_BGR2RGB))
 
     plt.show()
 

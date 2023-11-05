@@ -8,7 +8,7 @@ This project is a part of the course th Computer Vision at NIT Calicut. The proj
 1. Clone the repository
 
     ```bash
-    git clone https://github.com/AfthabEK/Number-Plate-Detection.git
+    git clone https://github.com/AfthabEK/Number-Plate-Recognition.git
     ```
 
 2. Install the dependencies
@@ -17,7 +17,9 @@ This project is a part of the course th Computer Vision at NIT Calicut. The proj
     pip install -r requirements.txt
     ```
 
-3. Download the weights for the YOLOv3 model from [here](https://drive.google.com/drive/folders/1XDe29q-N5wm5aq4e9csEtxa8yjV69aTm?usp=drive_linkfolder) and place it in the `yolov3-from-opencv-object-detection/model/weigths` folder.
+3. Download the weights for the YOLOv3 model from [here](https://drive.google.com/drive/folders/1XDe29q-N5wm5aq4e9csEtxa8yjV69aTm?usp=drive_linkfolder) and place it in the `./model/weigths` folder.
+
+4. Add the images to be processed in the `./data` folder.
 
 
 
