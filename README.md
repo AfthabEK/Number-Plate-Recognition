@@ -1,5 +1,7 @@
 # Number Plate Detection and Recognition
-This project is a part of the course th Computer Vision at NIT Calicut. The project aims to detect and recognize the number plates of vehicles in an image. The project is divided into two parts:
+This project aims to detect and recognize the number plates of vehicles in an image. 
+We use the YOLOv3 model for object detection and the EasyOCR library for text recognition.
+The project is divided into two parts:
 1. Number Plate Detection
 2. Number Plate Recognition
 
