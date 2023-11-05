@@ -1,0 +1,9 @@
+venv/
+venv2/
+**/__pycache__/
+**/venv/
+**/venv2/
+# Ignore all .weight files
+**/*.weights
+
+**/**/.weights
