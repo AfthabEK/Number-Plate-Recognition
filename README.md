@@ -36,7 +36,7 @@ This project is a part of the course th Computer Vision at NIT Calicut. The proj
 
 3. To navigate through the plates, click q to quit the current image and move to the next one. 
 
-4. 
+4.  The detected plates will be saved in result.txt, along with the confidence level.
 
 
 
