@@ -30,7 +30,6 @@ This project is a part of the course th Computer Vision at NIT Calicut. The proj
 2. Run the following command to detect the number plates in the images.
 
     ```bash
-    cd yolov3-from-opencv-object-detection
     python main.py
     ```
 
